@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59AD7BFE2C52FB2D00634403 /* AlbrisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7BFD2C52FB2D00634403 /* AlbrisApp.swift */; };
+		59AD7C002C52FB2D00634403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7BFF2C52FB2D00634403 /* ContentView.swift */; };
+		59AD7C022C52FB2D00634403 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7C012C52FB2D00634403 /* Item.swift */; };
+		59AD7C042C52FB2E00634403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7C032C52FB2E00634403 /* Assets.xcassets */; };
+		59AD7C082C52FB2E00634403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7C072C52FB2E00634403 /* Preview Assets.xcassets */; };
+		59AD7C122C52FB2E00634403 /* AlbrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7C112C52FB2E00634403 /* AlbrisTests.swift */; };
+		59AD7C1C2C52FB2E00634403 /* AlbrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7C1B2C52FB2E00634403 /* AlbrisUITests.swift */; };
+		59AD7C1E2C52FB2E00634403 /* AlbrisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7C1D2C52FB2E00634403 /* AlbrisUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59AD7C0E2C52FB2E00634403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59AD7BF22C52FB2D00634403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59AD7BF92C52FB2D00634403;
+			remoteInfo = Albris;
+		};
+		59AD7C182C52FB2E00634403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59AD7BF22C52FB2D00634403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59AD7BF92C52FB2D00634403;
+			remoteInfo = Albris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59AD7BFA2C52FB2D00634403 /* Albris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Albris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AD7BFD2C52FB2D00634403 /* AlbrisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbrisApp.swift; sourceTree = "<group>"; };
+		59AD7BFF2C52FB2D00634403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59AD7C012C52FB2D00634403 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		59AD7C032C52FB2E00634403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59AD7C052C52FB2E00634403 /* Albris.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Albris.entitlements; sourceTree = "<group>"; };
+		59AD7C072C52FB2E00634403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59AD7C0D2C52FB2E00634403 /* AlbrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AD7C112C52FB2E00634403 /* AlbrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbrisTests.swift; sourceTree = "<group>"; };
+		59AD7C172C52FB2E00634403 /* AlbrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AD7C1B2C52FB2E00634403 /* AlbrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbrisUITests.swift; sourceTree = "<group>"; };
+		59AD7C1D2C52FB2E00634403 /* AlbrisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbrisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59AD7BF72C52FB2D00634403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AD7C0A2C52FB2E00634403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AD7C142C52FB2E00634403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59AD7BF12C52FB2D00634403 = {
+			isa = PBXGroup;
+			children = (
+				59AD7BFC2C52FB2D00634403 /* Albris */,
+				59AD7C102C52FB2E00634403 /* AlbrisTests */,
+				59AD7C1A2C52FB2E00634403 /* AlbrisUITests */,
+				59AD7BFB2C52FB2D00634403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59AD7BFB2C52FB2D00634403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7BFA2C52FB2D00634403 /* Albris.app */,
+				59AD7C0D2C52FB2E00634403 /* AlbrisTests.xctest */,
+				59AD7C172C52FB2E00634403 /* AlbrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59AD7BFC2C52FB2D00634403 /* Albris */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7BFD2C52FB2D00634403 /* AlbrisApp.swift */,
+				59AD7BFF2C52FB2D00634403 /* ContentView.swift */,
+				59AD7C012C52FB2D00634403 /* Item.swift */,
+				59AD7C032C52FB2E00634403 /* Assets.xcassets */,
+				59AD7C052C52FB2E00634403 /* Albris.entitlements */,
+				59AD7C062C52FB2E00634403 /* Preview Content */,
+			);
+			path = Albris;
+			sourceTree = "<group>";
+		};
+		59AD7C062C52FB2E00634403 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7C072C52FB2E00634403 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59AD7C102C52FB2E00634403 /* AlbrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7C112C52FB2E00634403 /* AlbrisTests.swift */,
+			);
+			path = AlbrisTests;
+			sourceTree = "<group>";
+		};
+		59AD7C1A2C52FB2E00634403 /* AlbrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59AD7C1B2C52FB2E00634403 /* AlbrisUITests.swift */,
+				59AD7C1D2C52FB2E00634403 /* AlbrisUITestsLaunchTests.swift */,
+			);
+			path = AlbrisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59AD7BF92C52FB2D00634403 /* Albris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AD7C212C52FB2E00634403 /* Build configuration list for PBXNativeTarget "Albris" */;
+			buildPhases = (
+				59AD7BF62C52FB2D00634403 /* Sources */,
+				59AD7BF72C52FB2D00634403 /* Frameworks */,
+				59AD7BF82C52FB2D00634403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Albris;
+			productName = Albris;
+			productReference = 59AD7BFA2C52FB2D00634403 /* Albris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59AD7C0C2C52FB2E00634403 /* AlbrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AD7C242C52FB2E00634403 /* Build configuration list for PBXNativeTarget "AlbrisTests" */;
+			buildPhases = (
+				59AD7C092C52FB2E00634403 /* Sources */,
+				59AD7C0A2C52FB2E00634403 /* Frameworks */,
+				59AD7C0B2C52FB2E00634403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59AD7C0F2C52FB2E00634403 /* PBXTargetDependency */,
+			);
+			name = AlbrisTests;
+			productName = AlbrisTests;
+			productReference = 59AD7C0D2C52FB2E00634403 /* AlbrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59AD7C162C52FB2E00634403 /* AlbrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AD7C272C52FB2E00634403 /* Build configuration list for PBXNativeTarget "AlbrisUITests" */;
+			buildPhases = (
+				59AD7C132C52FB2E00634403 /* Sources */,
+				59AD7C142C52FB2E00634403 /* Frameworks */,
+				59AD7C152C52FB2E00634403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59AD7C192C52FB2E00634403 /* PBXTargetDependency */,
+			);
+			name = AlbrisUITests;
+			productName = AlbrisUITests;
+			productReference = 59AD7C172C52FB2E00634403 /* AlbrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59AD7BF22C52FB2D00634403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					59AD7BF92C52FB2D00634403 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					59AD7C0C2C52FB2E00634403 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 59AD7BF92C52FB2D00634403;
+					};
+					59AD7C162C52FB2E00634403 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 59AD7BF92C52FB2D00634403;
+					};
+				};
+			};
+			buildConfigurationList = 59AD7BF52C52FB2D00634403 /* Build configuration list for PBXProject "Albris" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59AD7BF12C52FB2D00634403;
+			productRefGroup = 59AD7BFB2C52FB2D00634403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59AD7BF92C52FB2D00634403 /* Albris */,
+				59AD7C0C2C52FB2E00634403 /* AlbrisTests */,
+				59AD7C162C52FB2E00634403 /* AlbrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59AD7BF82C52FB2D00634403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AD7C082C52FB2E00634403 /* Preview Assets.xcassets in Resources */,
+				59AD7C042C52FB2E00634403 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AD7C0B2C52FB2E00634403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AD7C152C52FB2E00634403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59AD7BF62C52FB2D00634403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AD7C002C52FB2D00634403 /* ContentView.swift in Sources */,
+				59AD7C022C52FB2D00634403 /* Item.swift in Sources */,
+				59AD7BFE2C52FB2D00634403 /* AlbrisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AD7C092C52FB2E00634403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AD7C122C52FB2E00634403 /* AlbrisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59AD7C132C52FB2E00634403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AD7C1C2C52FB2E00634403 /* AlbrisUITests.swift in Sources */,
+				59AD7C1E2C52FB2E00634403 /* AlbrisUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59AD7C0F2C52FB2E00634403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59AD7BF92C52FB2D00634403 /* Albris */;
+			targetProxy = 59AD7C0E2C52FB2E00634403 /* PBXContainerItemProxy */;
+		};
+		59AD7C192C52FB2E00634403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59AD7BF92C52FB2D00634403 /* Albris */;
+			targetProxy = 59AD7C182C52FB2E00634403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59AD7C1F2C52FB2E00634403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59AD7C202C52FB2E00634403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		59AD7C222C52FB2E00634403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Albris/Albris.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Albris/Preview Content\"";
+				DEVELOPMENT_TEAM = 28RSHML25T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.Albris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59AD7C232C52FB2E00634403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Albris/Albris.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Albris/Preview Content\"";
+				DEVELOPMENT_TEAM = 28RSHML25T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.Albris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59AD7C252C52FB2E00634403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28RSHML25T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.AlbrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Albris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Albris";
+			};
+			name = Debug;
+		};
+		59AD7C262C52FB2E00634403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28RSHML25T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.AlbrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Albris.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Albris";
+			};
+			name = Release;
+		};
+		59AD7C282C52FB2E00634403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28RSHML25T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.AlbrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Albris;
+			};
+			name = Debug;
+		};
+		59AD7C292C52FB2E00634403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28RSHML25T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.AlbrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Albris;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59AD7BF52C52FB2D00634403 /* Build configuration list for PBXProject "Albris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AD7C1F2C52FB2E00634403 /* Debug */,
+				59AD7C202C52FB2E00634403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AD7C212C52FB2E00634403 /* Build configuration list for PBXNativeTarget "Albris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AD7C222C52FB2E00634403 /* Debug */,
+				59AD7C232C52FB2E00634403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AD7C242C52FB2E00634403 /* Build configuration list for PBXNativeTarget "AlbrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AD7C252C52FB2E00634403 /* Debug */,
+				59AD7C262C52FB2E00634403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AD7C272C52FB2E00634403 /* Build configuration list for PBXNativeTarget "AlbrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AD7C282C52FB2E00634403 /* Debug */,
+				59AD7C292C52FB2E00634403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59AD7BF22C52FB2D00634403 /* Project object */;
+}
