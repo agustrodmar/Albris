@@ -10,6 +10,9 @@
 		597A259D2C5433AF00D93D94 /* KeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A259C2C5433AF00D93D94 /* KeyHandler.swift */; };
 		597A25A12C543BD100D93D94 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A25A02C543BD100D93D94 /* Model.swift */; };
 		597A25A32C543EBA00D93D94 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A25A22C543EBA00D93D94 /* GameBoard.swift */; };
+		597A25A52C5443C900D93D94 /* Tetromino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A25A42C5443C900D93D94 /* Tetromino.swift */; };
+		597A25A72C544BDB00D93D94 /* NextTetrominoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A25A62C544BDB00D93D94 /* NextTetrominoView.swift */; };
+		597A25A92C5450DA00D93D94 /* ReserveTetrominoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A25A82C5450DA00D93D94 /* ReserveTetrominoView.swift */; };
 		59979B142C5306E300217642 /* TetrisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59979B132C5306E300217642 /* TetrisViewModel.swift */; };
 		59979B162C53072A00217642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59979B152C53072A00217642 /* ContentView.swift */; };
 		59AD7BFE2C52FB2D00634403 /* AlbrisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7BFD2C52FB2D00634403 /* AlbrisApp.swift */; };
@@ -42,6 +45,9 @@
 		597A259C2C5433AF00D93D94 /* KeyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyHandler.swift; sourceTree = "<group>"; };
 		597A25A02C543BD100D93D94 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		597A25A22C543EBA00D93D94 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		597A25A42C5443C900D93D94 /* Tetromino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tetromino.swift; sourceTree = "<group>"; };
+		597A25A62C544BDB00D93D94 /* NextTetrominoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextTetrominoView.swift; sourceTree = "<group>"; };
+		597A25A82C5450DA00D93D94 /* ReserveTetrominoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveTetrominoView.swift; sourceTree = "<group>"; };
 		59979B132C5306E300217642 /* TetrisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisViewModel.swift; sourceTree = "<group>"; };
 		59979B152C53072A00217642 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59AD7BFA2C52FB2D00634403 /* Albris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Albris.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +101,7 @@
 			children = (
 				597A25A02C543BD100D93D94 /* Model.swift */,
 				597A25A22C543EBA00D93D94 /* GameBoard.swift */,
+				597A25A42C5443C900D93D94 /* Tetromino.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -111,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				59979B152C53072A00217642 /* ContentView.swift */,
+				597A25A62C544BDB00D93D94 /* NextTetrominoView.swift */,
+				597A25A82C5450DA00D93D94 /* ReserveTetrominoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,10 +318,13 @@
 				59979B142C5306E300217642 /* TetrisViewModel.swift in Sources */,
 				59979B162C53072A00217642 /* ContentView.swift in Sources */,
 				597A259D2C5433AF00D93D94 /* KeyHandler.swift in Sources */,
+				597A25A52C5443C900D93D94 /* Tetromino.swift in Sources */,
 				597A25A32C543EBA00D93D94 /* GameBoard.swift in Sources */,
+				597A25A72C544BDB00D93D94 /* NextTetrominoView.swift in Sources */,
 				597A25A12C543BD100D93D94 /* Model.swift in Sources */,
 				59AD7C022C52FB2D00634403 /* Item.swift in Sources */,
 				59AD7BFE2C52FB2D00634403 /* AlbrisApp.swift in Sources */,
+				597A25A92C5450DA00D93D94 /* ReserveTetrominoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
