@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		597A259D2C5433AF00D93D94 /* KeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A259C2C5433AF00D93D94 /* KeyHandler.swift */; };
+		597A25A12C543BD100D93D94 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A25A02C543BD100D93D94 /* Model.swift */; };
+		597A25A32C543EBA00D93D94 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A25A22C543EBA00D93D94 /* GameBoard.swift */; };
+		59979B142C5306E300217642 /* TetrisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59979B132C5306E300217642 /* TetrisViewModel.swift */; };
+		59979B162C53072A00217642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59979B152C53072A00217642 /* ContentView.swift */; };
 		59AD7BFE2C52FB2D00634403 /* AlbrisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7BFD2C52FB2D00634403 /* AlbrisApp.swift */; };
-		59AD7C002C52FB2D00634403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7BFF2C52FB2D00634403 /* ContentView.swift */; };
 		59AD7C022C52FB2D00634403 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7C012C52FB2D00634403 /* Item.swift */; };
 		59AD7C042C52FB2E00634403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7C032C52FB2E00634403 /* Assets.xcassets */; };
 		59AD7C082C52FB2E00634403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59AD7C072C52FB2E00634403 /* Preview Assets.xcassets */; };
@@ -35,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		597A259C2C5433AF00D93D94 /* KeyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyHandler.swift; sourceTree = "<group>"; };
+		597A25A02C543BD100D93D94 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		597A25A22C543EBA00D93D94 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		59979B132C5306E300217642 /* TetrisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisViewModel.swift; sourceTree = "<group>"; };
+		59979B152C53072A00217642 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59AD7BFA2C52FB2D00634403 /* Albris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Albris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AD7BFD2C52FB2D00634403 /* AlbrisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbrisApp.swift; sourceTree = "<group>"; };
-		59AD7BFF2C52FB2D00634403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59AD7C012C52FB2D00634403 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		59AD7C032C52FB2E00634403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59AD7C052C52FB2E00634403 /* Albris.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Albris.entitlements; sourceTree = "<group>"; };
@@ -74,6 +82,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		597A259B2C54339700D93D94 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				597A259C2C5433AF00D93D94 /* KeyHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		59979B0A2C53034F00217642 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				597A25A02C543BD100D93D94 /* Model.swift */,
+				597A25A22C543EBA00D93D94 /* GameBoard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		59979B0B2C53035B00217642 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				59979B132C5306E300217642 /* TetrisViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		59979B0C2C53036E00217642 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59979B152C53072A00217642 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		59AD7BF12C52FB2D00634403 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +138,11 @@
 		59AD7BFC2C52FB2D00634403 /* Albris */ = {
 			isa = PBXGroup;
 			children = (
+				597A259B2C54339700D93D94 /* Utils */,
+				59979B0C2C53036E00217642 /* Views */,
+				59979B0B2C53035B00217642 /* ViewModels */,
+				59979B0A2C53034F00217642 /* Models */,
 				59AD7BFD2C52FB2D00634403 /* AlbrisApp.swift */,
-				59AD7BFF2C52FB2D00634403 /* ContentView.swift */,
 				59AD7C012C52FB2D00634403 /* Item.swift */,
 				59AD7C032C52FB2E00634403 /* Assets.xcassets */,
 				59AD7C052C52FB2E00634403 /* Albris.entitlements */,
@@ -262,7 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59AD7C002C52FB2D00634403 /* ContentView.swift in Sources */,
+				59979B142C5306E300217642 /* TetrisViewModel.swift in Sources */,
+				59979B162C53072A00217642 /* ContentView.swift in Sources */,
+				597A259D2C5433AF00D93D94 /* KeyHandler.swift in Sources */,
+				597A25A32C543EBA00D93D94 /* GameBoard.swift in Sources */,
+				597A25A12C543BD100D93D94 /* Model.swift in Sources */,
 				59AD7C022C52FB2D00634403 /* Item.swift in Sources */,
 				59AD7BFE2C52FB2D00634403 /* AlbrisApp.swift in Sources */,
 			);
