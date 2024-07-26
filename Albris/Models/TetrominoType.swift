@@ -1,21 +1,12 @@
 //
-//  Model.swift
+//  TetrominoType.swift
 //  Albris
 //
-//  Created by Agustín Rodríguez Márquez on 26/7/24.
+//  Created by Agustín Rodríguez Márquez on 27/7/24.
 //
 
 import Foundation
 import SwiftUI
-
-struct Block: Identifiable {
-    let id = UUID()
-    var x: Int
-    var y: Int
-    var color: Color
-}
-
-
 
 enum TetrominoType {
     case I, O, T, S, Z, J, L

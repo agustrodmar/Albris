@@ -5,10 +5,14 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
+            Color(red: 36/255, green: 36/255, blue: 36/255)
+                .edgesIgnoringSafeArea(.all)
+            
             HStack(alignment: .top) {
                 VStack {
                     Text("Reserve:")
                         .font(.headline)
+                        .foregroundColor(.white)
                         .padding(.top)
                     ReserveTetrominoView(tetromino: viewModel.reservedTetromino)
                         .frame(width: 60, height: 60)
@@ -23,10 +27,11 @@ struct ContentView: View {
                 VStack {
                     Text("Score: \(viewModel.score)")
                         .font(.largeTitle)
+                        .foregroundColor(.white)
                         .padding()
                     
                     GameBoardView(gameBoard: viewModel.gameBoard, currentTetromino: viewModel.currentTetromino)
-                        .background(Color.gray)
+                        .background(Color.black)
                         .gesture(DragGesture()
                                     .onChanged { gesture in
                                         if gesture.translation.width > 20 {
@@ -48,7 +53,7 @@ struct ContentView: View {
                         }
                         .padding()
                     
-                    HStack {
+                    HStack(spacing: 20) {
                         Button(action: { viewModel.moveTetromino(direction: .left) }) {
                             Text("Left")
                         }
@@ -62,12 +67,15 @@ struct ContentView: View {
                             Text("Down")
                         }
                     }
+                    .font(.title2)
+                    .foregroundColor(.blue)
                     .padding()
                 }
                 
                 VStack {
                     Text("Next:")
                         .font(.headline)
+                        .foregroundColor(.white)
                         .padding(.top)
                     NextTetrominoView(tetromino: viewModel.nextTetromino)
                         .frame(width: 60, height: 60)
@@ -134,9 +142,3 @@ struct GameBoardView: View {
         }
     }
 }
-
-
-
-/*
- Solo me gustaría trabajar un poco la estética. Por ejemplo. Me gustaría que los botones Left Rotate Right y Down se mostraran correctamente. Actualmente se ven como apretados, creo que es por el constraint que sufren entre NetTetromino y ReserveTetromino, no me gustaría que le afectase... Por otro lado, me gustaría que el fondo blanco, fuese de un gris oscuro, como el modo oscuro de chat gpt, mientras que el gameBoard fuese negro. 
- */
