@@ -7,6 +7,8 @@ class TetrisViewModel: ObservableObject {
     @Published var nextTetromino: Tetromino?
     @Published var reservedTetromino: Tetromino?
     @Published var score: Int = 0
+    @Published var isGameOver: Bool = false
+    @Published var highScore: Int = 0
     
     private var timer: AnyCancellable?
     private var hasSwapped: Bool = false
@@ -17,6 +19,9 @@ class TetrisViewModel: ObservableObject {
     }
     
     func startGame() {
+        isGameOver = false
+        score = 0
+        gameBoard = GameBoard(width: 10, height: 20)
         nextTetromino = generateRandomTetromino()
         spawnTetromino()
         timer = Timer.publish(every: 1.0, on: .main, in: .common).autoconnect().sink { _ in
@@ -37,8 +42,7 @@ class TetrisViewModel: ObservableObject {
                 self.nextTetromino = generateRandomTetromino()
                 hasSwapped = false
             } else {
-                // Game over
-                timer?.cancel()
+                endGame()
             }
         }
     }
@@ -52,10 +56,14 @@ class TetrisViewModel: ObservableObject {
         if gameBoard.isValidPosition(tetromino: movedTetromino) {
             self.currentTetromino = movedTetromino
         } else {
-            gameBoard.placeTetromino(tetromino: currentTetromino)
-            self.currentTetromino = nil
-            score += gameBoard.clearLines()
-            spawnTetromino()
+            if currentTetromino.blocks.contains(where: { $0.y <= 0 }) {
+                endGame()
+            } else {
+                gameBoard.placeTetromino(tetromino: currentTetromino)
+                self.currentTetromino = nil
+                score += gameBoard.clearLines()
+                spawnTetromino()
+            }
         }
     }
     
@@ -106,8 +114,15 @@ class TetrisViewModel: ObservableObject {
         }
         hasSwapped = true
     }
+    
+    func endGame() {
+        isGameOver = true
+        timer?.cancel()
+        if score > highScore {
+            highScore = score
+        }
+    }
 }
-
 
 
 enum MoveDirection {
