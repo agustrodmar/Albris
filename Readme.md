@@ -3,7 +3,9 @@
 
 # Albris - Tetris en SwiftUI
 
-Albris es una implementación del clásico juego Tetris para iOS, desarrollada con SwiftUI siguiendo el patrón MVVM. Este proyecto incluye funcionalidad básica del juego Tetris, manejo de piezas (tetrominos), detección de colisiones, eliminación de líneas y una funcionalidad de intercambio de piezas en reserva.
+Albris es una implementación con propósitos educativos del clásico juego Tetris para iOS, desarrollada con SwiftUI siguiendo el patrón MVVM. Este proyecto incluye funcionalidad básica del juego Tetris, manejo de piezas (tetrominos), detección de colisiones, eliminación de líneas y una funcionalidad de intercambio de piezas en reserva.
+
+**Tetris** es una marca registrada de **The Tetris Company**. Este proyecto no está afiliado, patrocinado ni respaldado por **The Tetris Company**. Todo el contenido y código en este proyecto es original y no se utiliza ninguna propiedad intelectual de **The Tetris Company** más allá de la inspiración conceptual del juego.
 
 ## Características
 
@@ -36,9 +38,11 @@ El proyecto incluye tests unitarios para verificar la eliminación correcta de l
     - Selecciona el esquema de pruebas.
     - Ve a Product > Test o usa el atajo de teclado Cmd+U.
 
-## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
-
-Créditos
+# Créditos
 Desarrollado por agustrodmar.
+
+Este proyecto se proporciona para su uso personal y educativo únicamente. No se debe utilizar con fines comerciales ni distribuir de ninguna forma que pueda infringir los derechos de **The Tetris Company** o cualquier otra entidad.
+
+Si eres propietario de los derechos y consideras que este proyecto infringe tu propiedad intelectual, por favor, ponte en contacto para resolver cualquier posible infracción de manera amistosa.
+
