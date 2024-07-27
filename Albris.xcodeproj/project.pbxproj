@@ -23,6 +23,8 @@
 		59AD7C122C52FB2E00634403 /* AlbrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7C112C52FB2E00634403 /* AlbrisTests.swift */; };
 		59AD7C1C2C52FB2E00634403 /* AlbrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7C1B2C52FB2E00634403 /* AlbrisUITests.swift */; };
 		59AD7C1E2C52FB2E00634403 /* AlbrisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD7C1D2C52FB2E00634403 /* AlbrisUITestsLaunchTests.swift */; };
+		59C513EA2C545B67004A9755 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C513E92C545B66004A9755 /* AudioManager.swift */; };
+		59E67CFC2C54F57400833876 /* TetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E67CFB2C54F57400833876 /* TetrisTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		59AD7C172C52FB2E00634403 /* AlbrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AD7C1B2C52FB2E00634403 /* AlbrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbrisUITests.swift; sourceTree = "<group>"; };
 		59AD7C1D2C52FB2E00634403 /* AlbrisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbrisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59C513E92C545B66004A9755 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		59E67CFB2C54F57400833876 /* TetrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				597A25A42C5443C900D93D94 /* Tetromino.swift */,
 				597A25AA2C5457A700D93D94 /* Block.swift */,
 				597A25AC2C5457F200D93D94 /* TetrominoType.swift */,
+				59C513E92C545B66004A9755 /* AudioManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				59AD7C112C52FB2E00634403 /* AlbrisTests.swift */,
+				59E67CFB2C54F57400833876 /* TetrisTests.swift */,
 			);
 			path = AlbrisTests;
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 				597A259D2C5433AF00D93D94 /* KeyHandler.swift in Sources */,
 				597A25A52C5443C900D93D94 /* Tetromino.swift in Sources */,
 				597A25AD2C5457F200D93D94 /* TetrominoType.swift in Sources */,
+				59C513EA2C545B67004A9755 /* AudioManager.swift in Sources */,
 				597A25A32C543EBA00D93D94 /* GameBoard.swift in Sources */,
 				597A25A72C544BDB00D93D94 /* NextTetrominoView.swift in Sources */,
 				59AD7C022C52FB2D00634403 /* Item.swift in Sources */,
@@ -336,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E67CFC2C54F57400833876 /* TetrisTests.swift in Sources */,
 				59AD7C122C52FB2E00634403 /* AlbrisTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

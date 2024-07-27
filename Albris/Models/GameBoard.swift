@@ -36,13 +36,18 @@ class GameBoard {
     
     func clearLines() -> Int {
         var linesCleared = 0
+        var newGrid = grid
+        
         for y in (0..<height).reversed() {
             if grid[y].allSatisfy({ $0 != nil }) {
-                grid.remove(at: y)
-                grid.insert(Array(repeating: nil, count: width), at: 0)
                 linesCleared += 1
+                newGrid.remove(at: y)
+                newGrid.insert(Array(repeating: nil, count: width), at: 0)
+                print("Line cleared at row: \(y)")  // Prueba de impresión
             }
         }
+        
+        grid = newGrid
         return linesCleared
     }
 }

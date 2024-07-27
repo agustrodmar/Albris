@@ -1,5 +1,12 @@
+//
+//  AudioManager.swift
+//  Albris
+//
+//  Created by Agustín Rodríguez Márquez on 27/7/24.
+//
 import SwiftUI
 import Combine
+
 
 class TetrisViewModel: ObservableObject {
     @Published var gameBoard: GameBoard
@@ -61,7 +68,8 @@ class TetrisViewModel: ObservableObject {
             } else {
                 gameBoard.placeTetromino(tetromino: currentTetromino)
                 self.currentTetromino = nil
-                score += gameBoard.clearLines()
+                let linesCleared = gameBoard.clearLines()
+                score += linesCleared * 100 // Incrementar el puntaje por cada línea eliminada
                 spawnTetromino()
             }
         }
@@ -123,6 +131,7 @@ class TetrisViewModel: ObservableObject {
         }
     }
 }
+
 
 
 enum MoveDirection {

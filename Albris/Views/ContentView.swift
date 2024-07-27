@@ -1,7 +1,15 @@
+//
+//  NextTetrominoView.swift
+//  Albris
+//
+//  Created by Agustín Rodríguez Márquez on 26/7/24.
+//
 import SwiftUI
+
 
 struct ContentView: View {
     @ObservedObject var viewModel = TetrisViewModel()
+    @ObservedObject var audioManager = AudioManager.shared
     
     var body: some View {
         ZStack {
@@ -111,6 +119,25 @@ struct ContentView: View {
                 .background(Color.white)
                 .cornerRadius(10)
                 .shadow(radius: 10)
+            }
+            
+            VStack {
+                Spacer()
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        audioManager.togglePlayPause()
+                    }) {
+                        Image(systemName: audioManager.isPlaying ? "speaker.slash.fill" : "speaker.2.fill")
+                            .resizable()
+                            .frame(width: 40, height: 40)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(20)
+                            .padding()
+                    }
+                }
             }
         }
     }
