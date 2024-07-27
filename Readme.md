@@ -16,7 +16,12 @@ Albris es una implementación del clásico juego Tetris para iOS, desarrollada c
 
 ## Estructura del Proyecto
 
+![Captura de pantalla 2024-07-27 a las 11 48 51](https://github.com/user-attachments/assets/997528fd-aaa1-4b2c-ab80-969cc066bf15)
+
+
 ## Uso
+
+![Captura de pantalla 2024-07-27 a las 11 58 47](https://github.com/user-attachments/assets/1e9ba834-1358-443b-a2c5-e48adbcfc1e4)
 
 - **Mover las piezas: Desliza tu dedo hacia la izquierda o derecha sobre el GameBoard.** 
 - **Rotar las piezas: Toca el GameBoard.**
@@ -36,4 +41,4 @@ El proyecto incluye tests unitarios para verificar la eliminación correcta de l
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 Créditos
-Desarrollado por Tu agustrodmar.
+Desarrollado por agustrodmar.
