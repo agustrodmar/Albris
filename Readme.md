@@ -10,11 +10,11 @@ Albris es una implementación con propósitos educativos del clásico juego Tetr
 ## Características
 
 - **Interfaz de usuario con SwiftUI**
-- **Patrón MVVM** para una clara separación de la lógica y la vista
-- **Gestos de usuario** para mover, rotar y acelerar la caída de los tetrominos
-- **Música de fondo** con opción para encender/apagar
-- **Manejo de puntuación** y registro de puntajes altos
-- **Test Unitarios** para verificar la eliminación de líneas completas
+- **Patrón MVVM** para una clara separación de la lógica y la vista.
+- **Gestos de usuario** para mover, rotar y acelerar la caída de los tetrominos.
+- **Música de fondo** con opción para encender/apagar.
+- **Manejo de puntuación** y registro de puntajes altos.
+- **Test Unitarios** para verificar la eliminación de líneas completas.
 
 ## Estructura del Proyecto
 
